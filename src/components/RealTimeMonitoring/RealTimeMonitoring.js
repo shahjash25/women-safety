@@ -1,7 +1,7 @@
 import React from 'react';
-import VideoFeed from './VideoFeed';
-import GenderDistributionOverlay from './GenderDistributionOverlay';
-import GestureAnalytics from './GestureAnalytics';
+import VideoFeed from '../VideoFeed/VideoFeed';
+import GenderDistributionOverlay from '../GenderDistributionOverlay/GenderDistributionOverlay';
+import GestureAnalytics from '../GestureAnalytics/GestureAnalytics';
 import './RealTimeMonitoring.css';
 
 function RealTimeMonitoring() {

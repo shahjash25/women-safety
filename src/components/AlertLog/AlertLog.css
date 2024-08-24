@@ -1,0 +1,33 @@
+/* AlertLog.css */
+.alert-log {
+  padding: 20px;
+}
+
+.alert-log table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 auto;
+}
+
+.alert-log th, .alert-log td {
+  padding: 12px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+.alert-log thead {
+  background-color: #f4f4f4;
+}
+
+.alert-log th {
+  font-weight: bold;
+}
+
+.alert-log tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.alert-log tr:hover {
+  background-color: #eaeaea;
+  cursor: pointer;
+}

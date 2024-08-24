@@ -1,0 +1,31 @@
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh; /* Full viewport height */
+  padding: 20px; /* Optional padding */
+  box-sizing: border-box; /* Ensure padding is included in height */
+}
+
+.alert-heatmap-container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  flex: 1; /* Take up remaining space except for VideoGrid */
+  margin-bottom: 20px; /* Space between AlertLog/HeatMap and VideoGrid */
+}
+
+.alert-log-container {
+  flex: 1; /* Takes up 50% of the container width */
+  margin-right: 20px; /* Space between AlertLog and HeatMap */
+}
+
+.heatmap-container {
+  flex: 1; /* Takes up 50% of the container width */
+}
+
+.video-grid {
+  width: 100%;
+  overflow-x: auto; /* Allow horizontal scrolling if needed */
+  margin-top: auto; /* Push VideoGrid to the bottom */
+}

@@ -1,0 +1,58 @@
+/* VideoGrid.css */
+.video-grid-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+  overflow: hidden; /* Hide overflow to prevent scrollbars from appearing outside the container */
+  width: 100%; /* Full width to accommodate the scrollable area */
+}
+
+.video-grid {
+  display: flex;
+  overflow-x: auto; /* Allows horizontal scrolling */
+  scroll-behavior: smooth; /* Smooth scrolling */
+  gap: 10px; /* Space between videos */
+  padding: 10px;
+  white-space: nowrap; /* Ensures videos stay on one line */
+  flex: 1; /* Takes up available space */
+}
+
+.video-grid-item {
+  flex: 0 0 25%; /* Adjust width to fit four items in a row (100% / 4 = 25%) */
+  box-sizing: border-box; /* Includes padding in the width calculation */
+  text-align: center;
+  position: relative; /* Needed for absolute positioning of location */
+}
+
+.video-grid-item video {
+  width: 100%; /* Ensures video fits within the item container */
+  height: auto; /* Maintains aspect ratio */
+  border-radius: 8px; /* Rounded corners */
+}
+
+.video-location {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #333;
+}
+
+.scroll-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+  border-radius: 5px;
+}
+
+.scroll-button.left {
+  left: 0;
+}
+
+.scroll-button.right {
+  right: 0;
+}

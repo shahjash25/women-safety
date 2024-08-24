@@ -1,0 +1,38 @@
+/* RealTimeMonitoring.css */
+.real-time-monitoring-container {
+  display: flex;
+  flex-direction: row;
+  height: 100vh; /* Ensure it covers the entire viewport height */
+}
+
+.video-section {
+  flex: 3;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.analytics-section {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* VideoFeed.css */
+.video-feed-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.video-container {
+  width: 100%;
+  max-width: 1200px; /* Adjust to fit your needs */
+}
+
+.video-container video {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
