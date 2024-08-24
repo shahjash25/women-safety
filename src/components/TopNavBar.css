@@ -1,0 +1,31 @@
+.top-navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0277bd;
+    color: #fff;
+    padding: 0 20px;
+    height: 60px;
+  }
+  
+  .top-navbar .logo {
+    font-size: 24px;
+  }
+  
+  .top-navbar .controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .top-navbar .user-profile {
+    margin-left: 20px;
+  }
+  
+  .drawer {
+    width: 250px;
+  }
+  
+  .drawer .MuiListItemIcon-root {
+    min-width: 40px;
+  }
+  

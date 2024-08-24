@@ -1,0 +1,42 @@
+.anomaly-reports {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .anomaly-reports h4 {
+    font-size: 22px;
+    color: #0277bd; /* Dark blue for headings */
+    margin-bottom: 15px;
+  }
+  
+  .reports-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fafafa; /* Light grey background for reports */
+    border-radius: 8px;
+    overflow: auto; /* Allows scrolling if content overflows */
+  }
+  
+  .reports-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .reports-table th, .reports-table td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd; /* Light grey border for table rows */
+  }
+  
+  .reports-table th {
+    background-color: #0277bd; /* Dark blue background for headers */
+    color: #fff; /* White text for headers */
+  }
+  
+  .reports-table tr:hover {
+    background-color: #e3f2fd; /* Light blue background on hover */
+  }
+  

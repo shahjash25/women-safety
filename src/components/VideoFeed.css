@@ -1,0 +1,15 @@
+.video-feed-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+  
+  .video-player {
+    width: 100%; /* Adjust this percentage to control the size of the video */
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add some corner rounding if you like */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for depth */
+  }
+  
